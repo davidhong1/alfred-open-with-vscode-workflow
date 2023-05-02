@@ -2,6 +2,8 @@
 
 ![01.png](./img/01.png)
 
+# Work in [Alfred5](https://www.alfredapp.com/alfred-5-whats-new/)
+
 # Features
 
 1. Supports specifying the search root directory through environment variables, with multiple root directories separated by colons.
