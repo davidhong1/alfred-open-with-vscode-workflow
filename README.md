@@ -2,7 +2,7 @@
 
 An Alfred workflow that helps you quickly open projects in Visual Studio Code using the "o" command.
 
-![Workflow Demo](./img/01.png)
+![Workflow Demo](img/01.png)
 
 ## Features
 
@@ -27,12 +27,12 @@ An Alfred workflow that helps you quickly open projects in Visual Studio Code us
 1. Configure search directories:
    - Set `DIR_ARRAY` environment variable in Alfred
    - Multiple directories can be separated by colons (:)
-   ![Directory Configuration](./img/02.png)
+   ![Directory Configuration](img/02.png)
 
 2. Set search depth:
    - Configure `SEARCH_DEPTH` environment variable
    - Helps optimize search performance
-   ![Search Depth Configuration](./img/03.png)
+   ![Search Depth Configuration](img/03.png)
 
 ## Usage
 
