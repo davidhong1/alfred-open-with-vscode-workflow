@@ -1,31 +1,47 @@
-# Use VSCode app open project with "o" command.
+# Alfred Workflow: Open VSCode Projects
 
-![01.png](./img/01.png)
+An Alfred workflow that helps you quickly open projects in Visual Studio Code using the "o" command.
 
-# Work in [Alfred5](https://www.alfredapp.com/alfred-5-whats-new/)
+![Workflow Demo](./img/01.png)
 
-# Features
+## Features
 
-1. Supports specifying the search root directory through environment variables, with multiple root directories separated by colons.
-2. Supports specifying the search depth through environment variables to avoid searching all directories.
+- Quick project search and open with VSCode
+- Configurable search root directories (supports multiple paths, use `:` to separate)
+- Adjustable search depth to optimize performance
+- Works with [Alfred 5](https://www.alfredapp.com/alfred-5-whats-new/)
 
-# Installation
+## Prerequisites
 
-1. Click and download the [code.alfredworkflow](https://github.com/davidhong1/alfred-open-with-vscode-workflow/blob/main/code.alfredworkflow)
-2. Double click the `.alfredworkflow` file to install
+- [Alfred Powerpack](https://www.alfredapp.com/powerpack/) (Required for workflows)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- VSCode `code` command [installed in PATH](https://code.visualstudio.com/docs/setup/mac)
 
-Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
+## Installation
 
-# Usage
+1. Download [code.alfredworkflow](https://github.com/davidhong1/alfred-open-with-vscode-workflow/blob/main/code.alfredworkflow)
+2. Double-click the downloaded file to install it in Alfred
 
-1. [Install VSCode code command.](https://code.visualstudio.com/docs/setup/mac)
+## Configuration
 
-2. Define DIR_ARRAY and SEARCH_DEPTH env.
-   ![02.png](./img/02.png)
-   ![03.png](./img/03.png)
+1. Configure search directories:
+   - Set `DIR_ARRAY` environment variable in Alfred
+   - Multiple directories can be separated by colons (:)
+   ![Directory Configuration](./img/02.png)
 
-3. Trigger the Alfred App, type "o " (letter o and a space), followed by the complete or partial substring of the project you want to open. Choose the output directory for the search results and hit Enter to call the "code" command of Visual Studio Code to open the selected directory.
+2. Set search depth:
+   - Configure `SEARCH_DEPTH` environment variable
+   - Helps optimize search performance
+   ![Search Depth Configuration](./img/03.png)
 
-# More
+## Usage
 
-[GitHub](https://github.com/davidhong1/alfred-open-with-vscode-workflow)
+1. Trigger Alfred (default: ⌘ Space)
+2. Type `o` followed by a space
+3. Enter full or partial project name
+4. Select desired project from results
+5. Press Enter to open in VSCode
+
+## Links
+
+- [GitHub Repository](https://github.com/davidhong1/alfred-open-with-vscode-workflow)
