@@ -34,6 +34,7 @@ An Alfred workflow that helps you quickly open projects in Visual Studio Code us
    - Helps optimize search performance
 
 3. Demo
+
 ![Directory Configuration](img/02.png)
 ![Search Depth Configuration](img/03.png)
 
