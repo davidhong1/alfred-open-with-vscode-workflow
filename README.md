@@ -19,32 +19,30 @@ An Alfred workflow that helps you quickly open projects in Visual Studio Code us
 
 ## Installation
 
-1. Download [code.alfredworkflow](https://github.com/davidhong1/alfred-open-with-vscode-workflow/blob/main/code.alfredworkflow)
-2. Double-click the downloaded file to install it in Alfred
+- Download [code.alfredworkflow](https://github.com/davidhong1/alfred-open-with-vscode-workflow/blob/main/code.alfredworkflow)
+- Double-click the downloaded file to install it in Alfred
 
 ## Configuration
 
-1. Configure search directories:
-   - Set `DIR_ARRAY` environment variable in Alfred
-   - Multiple directories can be separated by colons (:)
-   
+- Configure search directories
+  - Set `DIR_ARRAY` environment variable in Alfred
+  - Multiple directories can be separated by colons (:)
 
-2. Set search depth:
-   - Configure `SEARCH_DEPTH` environment variable
-   - Helps optimize search performance
+- Set search depth
+  - Configure `SEARCH_DEPTH` environment variable
+  - Helps optimize search performance
 
-3. Demo
-
-![Directory Configuration](img/02.png)
-![Search Depth Configuration](img/03.png)
+- Demo
+  ![Directory Configuration](img/02.png)
+  ![Search Depth Configuration](img/03.png)
 
 ## Usage
 
-1. Trigger Alfred (default: ⌘ Space)
-2. Type `o` followed by a space
-3. Enter full or partial project name
-4. Select desired project from results
-5. Press Enter to open in VSCode
+- Trigger Alfred (default: ⌘ Space)
+- Type `o` followed by a space
+- Enter full or partial project name
+- Select desired project from results
+- Press Enter to open in VSCode
 
 ## Links
 
