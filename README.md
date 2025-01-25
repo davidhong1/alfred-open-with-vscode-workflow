@@ -2,7 +2,7 @@
 
 An Alfred workflow that helps you quickly open projects in Visual Studio Code using the "o" command.
 
-![Workflow Demo](img/01.png)
+![Workflow Demo](/img/01.png)
 
 ## Features
 
